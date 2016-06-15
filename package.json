@@ -1,0 +1,15 @@
+{
+  "name": "foaas-slack",
+  "version": "0.1.0",
+  "description": "Fuck off as a service slack integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "darthsteedious@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^13.4.1",
+    "request": "^2.72.0"
+  }
+}
