@@ -4,6 +4,8 @@
   "description": "Fuck off as a service slack integration",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "darthsteedious@gmail.com",
@@ -11,5 +13,8 @@
   "dependencies": {
     "hapi": "^13.4.1",
     "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "6.2.1"
   }
 }
